@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd15154e-0bb2-4eeb-ace3-049cd07a99da" name="Default Changelist" comment="" />
+    <list default="true" id="fd15154e-0bb2-4eeb-ace3-049cd07a99da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Components.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionBasics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCompletedExamples.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionDownload.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionExamples.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionJavascript.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionLogin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNavbars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNotifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionPills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTypography.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/WorkSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +40,22 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WyQMWaO38fJwZjbnhyroagagN4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,11 +79,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580119306749</updated>
-      <workItem from="1580119308251" duration="4557000" />
+      <workItem from="1580119308251" duration="6156000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

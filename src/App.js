@@ -1,9 +1,15 @@
 import React from "react";
 import {Route, Router, Switch, Link, Redirect} from "react-router-dom";
 import history from "./history";
+
+// Components
 import Admin from "./layouts/Admin.jsx";
+import LandingPage from "./views/LandingPage/LandingPage";
+import LoginPage from "./views/LoginPage/LoginPage";
+
 
 import "./assets/css/material-dashboard-react.css";
+import ProfilePage from "./views/ProfilePage/ProfilePage";
 
 
 class App extends React.Component{
@@ -14,7 +20,9 @@ class App extends React.Component{
                 <Router history={history}>
                     <Switch>
                         <Route path="/admin" component={Admin} />
-                        <Redirect from="/" to="/admin/dashboard" />
+                        <Route path="/login" component={LoginPage}/>
+                        <Route path="/profile" component={ProfilePage} />
+                        <Route path="/landingPage" component={LandingPage}/>
                     </Switch>
                 </Router>
             </div>
