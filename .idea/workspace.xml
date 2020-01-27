@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd15154e-0bb2-4eeb-ace3-049cd07a99da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Components.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionBasics.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCompletedExamples.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionDownload.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionExamples.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionJavascript.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionLogin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNavbars.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNotifications.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionPills.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTypography.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/WorkSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580119306749</updated>
-      <workItem from="1580119308251" duration="6156000" />
+      <workItem from="1580119308251" duration="7336000" />
     </task>
     <servers />
   </component>
