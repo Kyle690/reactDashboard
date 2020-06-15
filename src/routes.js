@@ -1,68 +1,94 @@
 // @material-ui/icons
-import Dashboard from "@material-ui/icons/Dashboard";
-import Person from "@material-ui/icons/Person";
-import LibraryBooks from "@material-ui/icons/LibraryBooks";
-import BubbleChart from "@material-ui/icons/BubbleChart";
-import LocationOn from "@material-ui/icons/LocationOn";
-import Notifications from "@material-ui/icons/Notifications";
+import {Dashboard,Person,List,LibraryBooks,BubbleChart, LocationOn,Notifications,Pages} from "@material-ui/icons";
+
 // core components/views for Admin layout
-import DashboardPage from "./views/Dashboard/Dashboard.jsx";
-import UserProfile from "./views/UserProfile/UserProfile.jsx";
-import TableList from "./views/TableList/TableList.jsx";
-import Typography from "./views/Typography/Typography.jsx";
-import Icons from "./views/Icons/Icons.jsx";
-import Maps from "./views/Maps/Maps.jsx";
-import NotificationsPage from "./views/Notifications/Notifications.jsx";
+import DashboardPage from "./views/Dashboard/Dashboard.js";
+import UserProfile from "./views/UserProfile/UserProfile.js";
+import TableList from "./views/TableList/TableList.js";
+import Typography from "./views/Typography/Typography.js";
+import Icons from "./views/Icons/Icons.js";
+import Maps from "./views/Maps/Maps.js";
+import NotificationsPage from "./views/Notifications/Notifications.js";
+import LoginPage from "./views/LoginPage/LoginPage";
+import LandingPage from "./views/LandingPage/LandingPage";
+import ProfilePage from "./views/ProfilePage/ProfilePage";
 const dashboardRoutes = [
   {
     path: "/dashboard",
     name: "Dashboard",
-    icon: Dashboard,
+    Icon: Dashboard,
     component: DashboardPage,
     layout: "/admin"
   },
   {
     path: "/user",
     name: "User Profile",
-    icon: Person,
+    Icon: Person,
     component: UserProfile,
     layout: "/admin"
   },
   {
     path: "/table",
     name: "Table List",
-    icon: "content_paste",
+    Icon: List,
     component: TableList,
     layout: "/admin"
   },
   {
     path: "/typography",
     name: "Typography",
-    icon: LibraryBooks,
+    Icon: LibraryBooks,
     component: Typography,
     layout: "/admin"
   },
   {
+    path:'/Pages',
+    name:'Pages',
+    Icon:Pages,
+    items:[
+      {
+        name:'Login Page',
+        path:'/login',
+        layout:'/admin/pages',
+        component:LoginPage
+      },
+      {
+        name:'Landing Page',
+        path:'/landing',
+        layout:'/admin/pages',
+        component: LandingPage
+      },
+      {
+        name:'Profile Page',
+        path:'/profile',
+        layout:'/admin/pages',
+        component: ProfilePage
+      }
+    ],
+    layout:'/admin'
+  },
+  {
     path: "/icons",
     name: "Icons",
-    icon: BubbleChart,
+    Icon: BubbleChart,
     component: Icons,
     layout: "/admin"
   },
   {
     path: "/maps",
     name: "Maps",
-    icon: LocationOn,
+    Icon: LocationOn,
     component: Maps,
     layout: "/admin"
   },
   {
     path: "/notifications",
     name: "Notifications",
-    icon: Notifications,
+    Icon: Notifications,
     component: NotificationsPage,
     layout: "/admin"
-  }
+  },
+
 ];
 
 export default dashboardRoutes;

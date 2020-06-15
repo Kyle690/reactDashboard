@@ -8,32 +8,45 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Navbar from "../components/Navbars/Navbar.jsx";
-import Footer from "../components/Footer/Footer.jsx";
-import Sidebar from "../components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "../components/FixedPlugin/FixedPlugin.jsx";
+import Navbar from "../components/Navbars/Navbar.js";
+import Footer from "../components/Footer/Footer.js";
+import Sidebar from "../components/Sidebar/Sidebar.js";
+import FixedPlugin from "../components/FixedPlugin/FixedPlugin.js";
 
 import routes from "../routes.js";
 
-import dashboardStyle from "../assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx";
+import dashboardStyle from "../assets/jss/material-dashboard-react/layouts/adminStyle";
 
 import image from "../assets/img/sidebar-2.jpg";
 import logo from "../assets/img/reactlogo.png";
 
 const switchRoutes = (
-  <Switch>
-    {routes.map((prop, key) => {
-      if (prop.layout === "/admin") {
-        return (
-          <Route
-            path={prop.layout + prop.path}
-            component={prop.component}
-            key={key}
-          />
-        );
+    <Switch>
+      {routes.map((prop, key) => {
+        if(prop.items){
+          return  prop.items.map(item=>{
+            return (
+                <Route
+                    path={item.layout+item.path}
+                    component={item.component}
+                    key={key+item.name}
+                    exact
+                />
+            )
+          })
+        }else{
+          return (
+              <Route
+                  path={prop.layout + prop.path}
+                  component={prop.component}
+                  key={key}
+                  exact
+              />
+          );
+        }
+      })
       }
-    })}
-  </Switch>
+    </Switch>
 );
 
 class Dashboard extends React.Component {
@@ -43,7 +56,7 @@ class Dashboard extends React.Component {
       image: image,
       color: "blue",
       hasImage: true,
-      fixedClasses: "dropdown show",
+      fixedClasses: "dropdown",
       mobileOpen: false
     };
   }

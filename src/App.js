@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Router, Switch, Link, Redirect} from "react-router-dom";
+import {Route, Router, Switch} from "react-router-dom";
 import history from "./history";
 
 // Components
@@ -19,7 +19,7 @@ class App extends React.Component{
             <div>
                 <Router history={history}>
                     <Switch>
-                        <Route path="/admin" component={Admin} />
+                        <Route path="/" component={Admin} />
                         <Route path="/login" component={LoginPage}/>
                         <Route path="/profile" component={ProfilePage} />
                         <Route path="/landingPage" component={LandingPage}/>
